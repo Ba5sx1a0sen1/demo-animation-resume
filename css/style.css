@@ -1,0 +1,26 @@
+*{box-sizing: border-box;}
+*{margin: 0;padding: 0;}
+.token.selector{
+    color: black;
+}
+.token.property{
+    color:black;
+}
+.token.function{
+    color:black;
+}
+#code{
+    height: 100vh;
+    overflow: hidden;
+}
+.content{
+    padding-left: 16px;
+}
+@keyframes breath{
+    0%{
+        box-shadow: 0 0 10px rgba(0,0,0,1)
+    }
+    100%{
+        box-shadow: 0 0 10px rgba(0,0,0,0.2)
+    }
+}
